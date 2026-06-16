@@ -1,0 +1,5 @@
+{"ts":"2026-06-16T09:00:00Z","session":"sess-aaa","question":"Show sales by product","plan":["resolve_pillars","run_query"],"access_verdict":"allow","budget_consumed":800.0,"pillars_fired":["sales","product"],"outcome":"answered"}
+{"ts":"2026-06-16T09:05:00Z","session":"sess-aaa","question":"Break down by store too","plan":["resolve_pillars","clarify"],"access_verdict":"allow","budget_consumed":200.0,"pillars_fired":["store"],"outcome":"clarify"}
+{"ts":"2026-06-16T09:10:00Z","session":"sess-bbb","question":"Show restricted PII data","plan":["check_access"],"access_verdict":"deny","budget_consumed":50.0,"pillars_fired":["pii"],"outcome":"blocked"}
+{"ts":"2026-06-16T09:15:00Z","session":"sess-bbb","question":"What is the headcount?","plan":["resolve_pillars","run_query"],"access_verdict":"allow","budget_consumed":600.0,"pillars_fired":["hr","headcount"],"outcome":"answered"}
+{"ts":"2026-06-16T09:20:00Z","session":"sess-ccc","question":"Revenue trends Q1","plan":["resolve_pillars","run_query","format"],"access_verdict":"allow","budget_consumed":1100.0,"pillars_fired":["revenue","time"],"outcome":"answered"}

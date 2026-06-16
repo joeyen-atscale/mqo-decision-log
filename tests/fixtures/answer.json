@@ -1,0 +1,11 @@
+{
+  "ts": "2026-06-16T10:00:00Z",
+  "session": "sess-abc123",
+  "question": "What is the revenue by region for Q1 2026?",
+  "plan": ["resolve_pillars", "check_access", "run_query", "format_answer"],
+  "access_verdict": "allow",
+  "budget_consumed": 1250.5,
+  "pillars_fired": ["revenue", "region", "time"],
+  "outcome": "answered",
+  "credential_id": "vc-001"
+}
